@@ -1,0 +1,40 @@
+@media (max-width: 800px) {
+  .main {
+    width: 375px;
+    height: 400px;
+    padding: 2.5rem 1.875rem 3rem;
+  }
+
+  form {
+    padding-bottom: 2.5rem;
+  }
+
+  .data-numbers {
+    padding: 5rem 0 1.25rem;
+  }
+
+  .info-numbers h1 {
+    font-size: 4rem;
+  }
+
+  button {
+    right: 45%;
+    z-index: 1;
+  }
+
+  .btn::before {
+    right: 50%;
+    left: 42%;
+    top: 22px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .btn::after {
+    width: 95%;
+  }
+
+  .attribution { 
+    transform: translate(0, 20px);
+  }
+}

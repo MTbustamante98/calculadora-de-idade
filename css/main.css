@@ -1,0 +1,104 @@
+.main {
+  background: var(--white);
+  width: 500px;
+  height: auto;
+  position: relative;
+  padding: 2.5rem 1.875rem;
+  border-radius: 0.938rem 0.938rem 25% 0.938rem;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: 0.685rem;
+  font-weight: 700;
+  color: var(--smoke-grey);
+  margin-bottom: 4px;
+}
+
+input {
+  width: 60%;
+  padding: .5rem 1.1rem;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  font: 800 1.3rem Poppins, sans-serif;
+}
+
+input::placeholder {
+  font: 800 1.2rem Poppins, sans-serif;
+  vertical-align: middle;
+}
+
+form input:focus {
+  border-color: var(--purple);
+  outline: none;
+}
+
+.input-box { width: 120px;}
+
+button {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background: var(--purple);
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  cursor: pointer;
+}
+
+button:hover { background: var(--off-black);}
+
+.btn { position: relative;}
+
+.btn::before {
+  content: '';
+  background: url("assets/images/icon-arrow.svg") no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  right: 17px;
+  top: 18px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 33px;
+  width: 86%;
+  height: 2px;
+  background: var(--off-white);
+}
+
+.data-numbers {
+  padding: 3.75rem 0 1.25rem;
+}
+
+.info-numbers {
+  display: flex;
+  align-items: center;
+  margin-bottom: -40px;
+}
+
+.info-numbers h1 {
+  font: italic 800 4.5rem "Poppins", sans-serif;
+  letter-spacing: -.1rem;
+}
+
+span {
+  color: var(--purple);
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: .5rem;
+}
