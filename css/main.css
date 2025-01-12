@@ -60,7 +60,7 @@ button:hover { background: var(--off-black);}
 
 .btn::before {
   content: '';
-  background: url("assets/images/icon-arrow.svg") no-repeat;
+  background: url("../assets/images/icon-arrow.svg") no-repeat;
   background-size: contain;
   position: absolute;
   width: 36px;
